@@ -1,5 +1,5 @@
 {
-  "name": "ChakraNextFontMinRep",
+  "name": "chakra-next-font-min-reproduction",
   "version": "1.0.0",
   "description": "Minimum replication repository for an issue with loading fonts in a multi-tenant Next.js app using Chakra",
   "main": "index.js",
