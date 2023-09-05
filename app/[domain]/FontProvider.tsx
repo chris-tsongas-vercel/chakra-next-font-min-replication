@@ -15,5 +15,9 @@ export const FontProvider = async ({
   const fontClasses = Object.values(fontDefinition).map(
     (font) => font.className
   );
-  return <div className={clsx(fontClasses)}>{children}</div>;
+  return (
+    <div id="font-provider" className={clsx(fontClasses)}>
+      {children}
+    </div>
+  );
 };

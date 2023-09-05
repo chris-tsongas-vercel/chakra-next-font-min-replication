@@ -8,10 +8,9 @@ export default async function Layout({
   params: { domain: string };
   children: React.ReactNode;
 }) {
-  const themeName = "basic";
   return (
-    <FontProvider themeName={themeName}>
-      <ThemeProvider themeName={themeName}>{children}</ThemeProvider>
+    <FontProvider themeName={params.domain}>
+      <ThemeProvider themeName={params.domain}>{children}</ThemeProvider>
     </FontProvider>
   );
 }
