@@ -16,7 +16,7 @@ export const FontProvider = async ({
     (font) => font.className
   );
   return (
-    <div id="font-provider" className={clsx(fontClasses)}>
+    <div id="css-vars-root" className={clsx(fontClasses)}>
       {children}
     </div>
   );

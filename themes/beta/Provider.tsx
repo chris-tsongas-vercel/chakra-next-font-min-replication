@@ -3,7 +3,7 @@ import { type PropsWithChildren } from "react";
 import { theme } from ".";
 
 const Provider = ({ children }: PropsWithChildren) => (
-  <ChakraProvider cssVarsRoot="#font-provider" theme={theme}>
+  <ChakraProvider cssVarsRoot="#css-vars-root" theme={theme}>
     {children}
   </ChakraProvider>
 );
