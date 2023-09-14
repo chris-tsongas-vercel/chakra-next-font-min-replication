@@ -4,6 +4,7 @@ import {
   type ChakraTheme,
   type ThemeConfig,
 } from "@chakra-ui/react";
+import fonts from "./fonts";
 const config: ThemeConfig = {
   useSystemColorMode: false,
   initialColorMode: "light",
@@ -11,8 +12,5 @@ const config: ThemeConfig = {
 };
 export const theme = extendBaseTheme({
   config,
-  fonts: {
-    body: "var(--font--plaak-regular)",
-    heading: "var(--font--plaak-heavy)",
-  },
+  fonts,
 }) as ChakraTheme;
