@@ -25,7 +25,7 @@ And open any of the hosted subdomains in your browser:
 
 ## In This Branch
 
-- Fonts are set to `preload`.
+- Fonts are set to `preload=true` and `display=block`.
 - Themes are loaded dynamically (client-side).
 - Font definitions are loaded dynamically (server-side).
 - Themes reference font definitions directly.
