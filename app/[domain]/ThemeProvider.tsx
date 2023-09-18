@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 import { type PropsWithChildren } from "react";
 
 export function ThemeProvider({
-  themeName = "basic",
+  themeName = "alpha",
   children,
 }: {
   themeName?: string;

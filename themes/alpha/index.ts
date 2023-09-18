@@ -8,7 +8,7 @@ import fonts from "./fonts";
 const config: ThemeConfig = {
   useSystemColorMode: false,
   initialColorMode: "light",
-  cssVarPrefix: "base",
+  cssVarPrefix: "alpha",
 };
 export const theme = extendBaseTheme({
   config,
