@@ -1,6 +1,6 @@
-import Montserrat from "@/lib/fonts/Montserrat";
+import { MontserratRegular } from "@/lib/fonts/Montserrat";
 const fonts = {
-  body: Montserrat,
-  heading: Montserrat,
+  body: MontserratRegular,
+  heading: MontserratRegular,
 };
 export default fonts;
